@@ -1,0 +1,231 @@
+/* line 15, ../scss/main.scss */
+.main ul li {
+  list-style-type: none;
+}
+
+/* line 20, ../scss/main.scss */
+header h1 {
+  background-color: #003366;
+  color: #CCC;
+  padding: 15px 25px;
+  font-size: 40px;
+  margin: 0;
+}
+
+/* line 29, ../scss/main.scss */
+body {
+  background: #cccccc;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+/* line 36, ../scss/main.scss */
+body h1 {
+  color: #cccccc;
+  font-size: 35px;
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+/* line 44, ../scss/main.scss */
+body h2 {
+  font-size: 25px;
+  color: #cccccc;
+  margin: 0;
+  padding-bottom: 10px;
+}
+/* line 50, ../scss/main.scss */
+body h3 {
+  color: #333;
+  margin: 0;
+  padding-bottom: 10px;
+}
+/* line 55, ../scss/main.scss */
+body img {
+  margin: 30px;
+  float: left;
+}
+
+/* line 61, ../scss/main.scss */
+.profile, .colleague_list {
+  width: 50%;
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 67, ../scss/main.scss */
+.personal_id, .back_g, .colleague_list li {
+  background: #336699;
+  margin: 10px;
+  overflow: auto;
+}
+
+/* line 72, ../scss/main.scss */
+.back_g {
+  padding: 0;
+}
+
+/* line 77, ../scss/main.scss */
+.colleague_list {
+  float: right;
+}
+
+/* line 86, ../scss/main.scss */
+.social_links {
+  margin: 10px;
+}
+/* line 89, ../scss/main.scss */
+.social_links a {
+  border-radius: 5px;
+  height: 2em;
+  width: 13%;
+  float: left;
+  margin-right: 1%;
+}
+/* line 97, ../scss/main.scss */
+.social_links li {
+  display: inline;
+  margin: 0;
+}
+/* line 102, ../scss/main.scss */
+.social_links a:hover {
+  border: 1px solid white;
+}
+/* line 106, ../scss/main.scss */
+.social_links .facebook a {
+  background: #23476A;
+  background-image: url(../images/facebook_logo.png);
+  background-size: 1.5em;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* line 114, ../scss/main.scss */
+.social_links .google a {
+  background: #A92A24;
+  background-image: url(../images/google_logo.png);
+  background-repeat: no-repeat;
+  background-size: 2em;
+  background-position: center;
+}
+/* line 122, ../scss/main.scss */
+.social_links .twitter a {
+  background-color: #00ABF0;
+  background-image: url(../images/twitter_logo.png);
+  background-repeat: no-repeat;
+  background-size: 2em;
+  background-position: center;
+}
+/* line 130, ../scss/main.scss */
+.social_links .linked_in a {
+  background: black;
+  background-image: url(../images/linkedin_logo.png);
+  background-repeat: no-repeat;
+  background-size: 2em;
+  background-position: center;
+}
+
+/* line 139, ../scss/main.scss */
+.mail, .phone {
+  color: #d5a725;
+  font-size: 20px;
+  margin: 0;
+}
+/* line 144, ../scss/main.scss */
+.mail i, .phone i {
+  padding-right: 10px;
+}
+/* line 148, ../scss/main.scss */
+.mail a, .phone a {
+  text-decoration: none;
+  color: #d5a725;
+}
+/* line 153, ../scss/main.scss */
+.mail a:hover, .phone a:hover {
+  color: navajowhite;
+}
+
+/* line 158, ../scss/main.scss */
+.details {
+  border-bottom: 2px solid #CCC;
+  padding: 15px 30px;
+}
+/* line 162, ../scss/main.scss */
+.details form {
+  margin: auto;
+  display: block;
+}
+/* line 167, ../scss/main.scss */
+.details textarea {
+  font-size: 1em;
+  resize: none;
+  margin: auto;
+  display: block;
+}
+/* line 174, ../scss/main.scss */
+.details select {
+  width: 50%;
+  padding-left: 20px;
+}
+/* line 179, ../scss/main.scss */
+.details label {
+  font-size: 19px;
+}
+/* line 183, ../scss/main.scss */
+.details table {
+  margin: auto;
+}
+/* line 186, ../scss/main.scss */
+.details table td {
+  padding: 5px;
+}
+/* line 191, ../scss/main.scss */
+.details .button {
+  width: 25%;
+  margin: auto;
+  display: block;
+}
+
+/* line 198, ../scss/main.scss */
+.hobbies {
+  border-bottom: 2px solid #CCC;
+  padding: 15px 30px;
+}
+
+/* line 203, ../scss/main.scss */
+.video {
+  border-bottom: 2px solid #CCC;
+  padding: 15px 30px;
+}
+/* line 207, ../scss/main.scss */
+.video video {
+  width: 100%;
+}
+
+/* line 212, ../scss/main.scss */
+.joke {
+  background-image: url(../images/quote_background.jpg);
+  margin: 10px;
+  padding: 2em;
+}
+/* line 217, ../scss/main.scss */
+.joke p {
+  font-size: 25px;
+  font-style: italic;
+  color: #CCC;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* line 225, ../scss/main.scss */
+footer {
+  background: #003366;
+  clear: both;
+  display: block;
+}
+/* line 230, ../scss/main.scss */
+footer p {
+  color: #CCC;
+  text-align: right;
+  padding: 15px;
+}

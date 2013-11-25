@@ -1,0 +1,235 @@
+// background color
+$bg_color: #CCC;
+// heading and fotter color
+$hd_ft_color: #036;
+// heading text color
+$hd_txt_color: #CCC;
+// scond bacground color
+$id_cards: #369;
+// phone + mail links
+$contact_links: #D5A725;
+// hover phone + mail links
+$h_contact_links: #FFDEAD;
+
+
+.main ul li {
+  list-style-type: none;
+}
+header {
+
+  h1 {
+    background-color: $hd_ft_color;
+    color: #CCC;
+    padding: 15px 25px;
+    font-size: 40px;
+    margin: 0;
+	}
+}
+
+body {  
+  background: $bg_color;
+  position:absolute; 
+  width:100%;
+  height: 100%;
+  margin: 0;
+
+	h1 {
+	  color: $hd_txt_color;
+	  font-size: 35px;
+	  margin: 0;
+	  padding-top: 30px;
+	  padding-bottom: 10px;
+	}
+
+	h2 {
+		font-size: 25px;
+		color: $hd_txt_color;
+		margin: 0;
+		padding-bottom: 10px;
+	}
+	h3 {
+		color: #333;
+		margin: 0;
+		padding-bottom: 10px;
+	}
+	img {
+		margin: 30px;
+		float: left;
+	}
+}
+
+.profile {
+  width: 50%;
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+.personal_id {
+  background: $id_cards;
+  margin: 10px;
+  overflow: auto;
+}
+.back_g {
+	@extend .personal_id;
+	padding: 0;
+}
+
+.colleague_list {
+	@extend .profile;
+	float: right;
+	
+	li {
+	  @extend .personal_id;
+	}
+}
+
+.social_links{
+	margin: 10px;
+
+	a {
+		border-radius: 5px;
+		height: 2em;
+		width: 13%;			
+		float: left;
+		margin-right: 1%;
+	}
+
+	li {
+		display: inline;
+		margin: 0;
+	}
+
+	a:hover {
+		border:1px solid white;
+	}
+
+	.facebook a {
+	  background: #23476A;
+	  background-image: url(../images/facebook_logo.png);
+	  background-size: 1.5em;
+	  background-repeat: no-repeat;
+	  background-position: center;
+	}
+
+	.google a {
+	  background: #A92A24;
+	  background-image: url(../images/google_logo.png);
+	  background-repeat: no-repeat;
+	  background-size: 2em;
+	  background-position: center;
+	}
+
+	.twitter a {
+	  background-color: #00ABF0;
+	  background-image: url(../images/twitter_logo.png);
+	  background-repeat: no-repeat;
+	  background-size: 2em;
+	  background-position: center;
+	}
+
+	.linked_in a {
+	  background: black;
+	  background-image: url(../images/linkedin_logo.png);
+	  background-repeat: no-repeat;
+	  background-size: 2em;
+	  background-position: center;
+	}
+}
+
+.mail, .phone {
+	color: $contact_links;
+	font-size: 20px;
+	margin: 0;
+
+	i {
+		padding-right: 10px;
+	}
+
+	a {
+		text-decoration: none;
+		color: $contact_links;
+	}
+
+	a:hover {
+	color: $h_contact_links;
+	}
+}
+
+.details {
+  border-bottom: 2px solid #CCC;
+  padding: 15px 30px;
+
+  form {
+    margin: auto;
+    display: block;
+  }
+
+  textarea {
+    font-size: 1em;
+    resize: none;
+    margin: auto;
+    display: block;
+  }
+
+  select {
+    width: 50%;
+    padding-left: 20px;
+  }
+
+  label {
+    font-size: 19px;
+  }
+
+  table {
+    margin: auto;
+
+    td {
+      padding: 5px;
+    }
+  }
+  
+  .button {
+    width: 25%;
+    margin: auto;
+    display: block;
+  }
+}
+
+.hobbies {
+  border-bottom: 2px solid #CCC;
+  padding: 15px 30px;
+}
+
+.video {
+	border-bottom: 2px solid #CCC;
+	padding: 15px 30px;
+
+	video {
+		width: 100%;
+  	}
+}
+
+.joke {
+  background-image: url(../images/quote_background.jpg);
+  margin: 10px;
+  padding: 2em;
+
+	p {
+	  font-size: 25px;
+	  font-style: italic;
+	  color: #CCC;
+	  background: rgba(0,0,0,0.5);
+	}
+}
+
+footer {
+  background: $hd_ft_color;
+  clear:both;
+  display: block;
+	
+	p {
+	  color: #CCC;
+	  text-align: right;
+	  padding: 15px;
+  	}
+}
